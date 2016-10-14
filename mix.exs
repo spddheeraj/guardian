@@ -45,7 +45,7 @@ defmodule Guardian.Mixfile do
     [{:jose, "~> 1.8"},
      {:phoenix, "~> 1.1.0", optional: true},
      {:plug, "~> 1.0"},
-     {:poison, ">= 1.3.0"}
+     {:poison, ">= 1.3.0"},
 
      # Dev and Test dependencies
      {:credo, "~> 0.3", only: [:dev, :test]},
